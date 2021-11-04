@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .bg-image {
+        background: url('/assets/home/background-home-mobile.jpg') no-repeat
+    }
+
+    @screen md {
+        .bg-image {
+            background: url('/assets/home/background-home-tablet.jpg') no-repeat
+        }
+    }
+
+    @screen lg {
+        .bg-image {
+            background: url('/assets/home/background-home-desktop.jpg') no-repeat
+        }
+    }
+}

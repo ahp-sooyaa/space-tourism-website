@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/tailwind.css">
+</head>
+<body class="text-white">
+
+  <div class="bg-image fixed bottom-0 left-0 right-0 top-0">
+    <nav class="p-7 md:py-0 md:px-14 lg:py-16">
+      <div class="flex justify-between items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" class="h-10 w-10 lg:h-12 lg:w-12">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF" />
+            <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+          </g>
+        </svg>
+        <hr class="hidden lg:block absolute border-gray-600 left-48 w-1/3 z-10">
+        <div class="hidden md:block -mr-14 lg:pl-10 px-10 text-base lg:w-3/5" style="
+        background-color: rgb(92 92 92 / 15%);
+        backdrop-filter: blur(30px);
+        ">
+          <div class="flex space-x-8 lg:pl-14">
+            <div class="flex py-8 lg:py-6 border-b-4">
+              <span class="font-bold hidden lg:block">00</span> <span class="uppercase ml-0 lg:ml-3">Home</span>
+            </div>
+            <div class="flex py-8 lg:py-6">
+              <span class="font-bold hidden lg:block">01</span> <span class="uppercase ml-0 lg:ml-3">Destination</span>
+            </div>
+            <div class="flex py-8 lg:py-6">
+              <span class="font-bold hidden lg:block">02</span> <span class="uppercase ml-0 lg:ml-3">Crew</span>
+            </div>
+            <div class="flex py-8 lg:py-6">
+              <span class="font-bold hidden lg:block">03</span> <span class="uppercase ml-0 lg:ml-3">Technology</span>
+            </div>
+          </div>
+        </div>
+        <svg class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="21">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+          </g>
+        </svg>
+      </div>
+    </nav>
+
+    <main class="flex flex-col h-5/6 lg:h-auto items-center justify-between lg:flex-row lg:items-end max-w-6xl mx-auto pt-5 md:pt-28 lg:pt-44 text-center lg:text-left">
+      <!-- <div class="bottom-32 w-4/5 lg:w-3/5 lg:max-w-min pl-0 lg:pl-8"> -->
+      <div class="bottom-32 w-4/5 md:max-w-min pl-0 lg:pl-8">
+        <div class="font-barlow text-base md:text-xl lg:text-2xl uppercase tracking-2.7ls lg:tracking-4.75ls" style="
+            color: #D0D6F9;
+        ">So, you want to travel to</div>
+        <div class="font-bellefair leading-tight my-4 text-1xxl md:text-2xxl tracking-wide uppercase">Space</div>
+        <div class="font-barlow text-sm-base md:text-lg tracking-wider" style="color: #D0D6F9;">
+          Let’s face it; if you want to go to space, you might as well genuinely go to 
+          outer space and not hover kind of on the edge of it. Well sit back, and relax 
+          because we’ll give you a truly out of this world experience!
+        </div>
+      </div>
+      <div class="py-16 text-sm px-10 mb-8 lg:mb-0 bg-white font-bellefair lg:px-14 lg:py-28 rounded-full lg:text-3xl text-white tracking-widest uppercase md:text-3xl md:py-24" style="color: #0B0D17;">
+        Explore
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

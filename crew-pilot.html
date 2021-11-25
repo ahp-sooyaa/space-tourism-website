@@ -7,22 +7,97 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Space tourism website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/tailwind.css">
 </head>
-<body>
+<body class="text-white">
+  <div class="flex flex-col bg-crew fixed inset-0">
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <nav class="p-7 md:py-0 md:px-14 lg:py-16">
+      <div class="flex justify-between items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" class="h-10 w-10 lg:h-12 lg:w-12">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF" />
+            <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+          </g>
+        </svg>
+        <hr class="hidden lg:block absolute border-gray-600 left-48 w-1/3 z-10">
+        <div class="hidden md:block -mr-14 lg:pl-10 px-10 text-base lg:w-3/5" style="
+          background-color: rgb(92 92 92 / 15%);
+          backdrop-filter: blur(30px);
+        ">
+          <div class="flex space-x-8 lg:pl-14">
+            <a href="index.html" class="block py-8 lg:py-6 border-b-4 border-transparent hover:border-gray-500 font-barlow-condensed tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">00</span> 
+                <span class="uppercase ml-0 lg:ml-3">Home</span>
+              </div>
+            </a>
+            <a href="destination-moon.html" class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">01</span> 
+                <span class="uppercase ml-0 lg:ml-3">Destination</span>
+              </div>
+            </a>
+            <a href="crew-pilot.html" class="block border-b-4 font-barlow-condensed lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">02</span> 
+                <span class="uppercase ml-0 lg:ml-3">Crew</span>
+              </div>
+            </a>
+            <a href="technology-capsule.html" class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">03</span> 
+                <span class="uppercase ml-0 lg:ml-3">Technology</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <svg class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="21">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+          </g>
+        </svg>
+      </div>
+    </nav>
 
-  02 Meet your crew
+    <div class="font-barlow-condensed mb-8 md:mb-10 md:mt-8 lg:mb-0 mx-auto text-base md:text-xl lg:text-2xl text-center md:text-left tracking-2.7ls w-2/3 md:w-full md:pl-14 lg:pl-10 lg:w-3/4">
+      <span class="font-bold mr-2 text-gray-500">02</span> 
+      <span class="uppercase">Meet your crew</span>
+    </div>
 
-  Pilot
-  Victor Glover
+    <div class="flex-1 flex flex-col lg:flex-row lg:items-end lg:w-3/4 mx-auto lg:pl-10">
+      <div class="order-2 md:order-1 flex flex-col lg:w-3/4">
+        <div class="md:order-2 flex justify-center lg:justify-start my-8 md:my-14 space-x-4">
+          <span class="h-2.5 w-2.5 rounded-full bg-gray-400"></span>
+          <span class="h-2.5 w-2.5 rounded-full bg-gray-400"></span>
+          <span class="h-2.5 w-2.5 rounded-full bg-white"></span>
+          <span class="h-2.5 w-2.5 rounded-full bg-gray-400"></span>
+        </div>
 
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+        <div class="md:order-1">
+          <div class="mb-5 font-bellefair">
+            <div class="text-center lg:text-left text-gray-400 uppercase text-base md:text-2xl lg:text-3xl md:mb-2">Pilot</div>
+            <div class="text-2xl md:text-4xl lg:text-6xl text-center lg:text-left uppercase">Victor Glover</div>
+          </div>
+
+          <div class="font-barlow leading-6 md:leading-7 mx-auto px-4 md:px-20 lg:px-0 text-center lg:text-left text-sm-base lg:text-lg lg:mb-12" style="color: #D0D6F9;">
+            Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+            International Space Station. Glover is a commander in the U.S. Navy where 
+            he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+            station systems flight engineer.
+          </div> 
+        </div>
+      </div>
+
+      <div class="order-1 md:order-2 md:mt-auto border-b md:border-b-0 border-gray-600 mx-auto w-5/6">
+        <img src="/space-tourism-website/assets/crew/image-victor-glover.webp" alt="pilot image" class="h-56 md:h-532 mx-auto lg:ml-auto lg:-mr-16">
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>

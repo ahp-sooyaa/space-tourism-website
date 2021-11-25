@@ -6318,6 +6318,10 @@ video {
   height: 24rem;
 }
 
+.h-532 {
+  height: 33.25em;
+}
+
 .h-auto {
   height: auto;
 }
@@ -6688,6 +6692,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-515 {
+  width: 32.1875em;
 }
 
 .w-auto {
@@ -22361,6 +22369,10 @@ video {
 }
 
 .font-barlow {
+  font-family: "Barlow";
+}
+
+.font-barlow-condensed {
   font-family: "Barlow Condensed";
 }
 
@@ -22628,6 +22640,10 @@ video {
 
 .tracking-2\.7ls {
   letter-spacing: 0.16875em;
+}
+
+.tracking-2\.36ls {
+  letter-spacing: 0.1475em;
 }
 
 .tracking-4\.75ls {
@@ -32248,19 +32264,79 @@ video {
   content: none;
 }
 
-.bg-image {
-  background: url('/assets/home/background-home-mobile.jpg') no-repeat
+.bg-home {
+  background: url('/space-tourism-website/assets/home/background-home-mobile.jpg') no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
-  .bg-image {
-    background: url('/assets/home/background-home-tablet.jpg') no-repeat
+  .bg-home {
+    background: url('/space-tourism-website/assets/home/background-home-tablet.jpg') no-repeat;
+    background-size: cover;
   }
 }
 
 @media (min-width: 1024px) {
-  .bg-image {
-    background: url('/assets/home/background-home-desktop.jpg') no-repeat
+  .bg-home {
+    background: url('/space-tourism-website/assets/home/background-home-desktop.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.bg-destination {
+  background: url('/space-tourism-website/assets/destination/background-destination-mobile.jpg') no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .bg-destination {
+    background: url('/space-tourism-website/assets/destination/background-destination-tablet.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  .bg-destination {
+    background: url('/space-tourism-website/assets/destination/background-destination-desktop.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.bg-crew {
+  background: url('/space-tourism-website/assets/crew/background-crew-mobile.jpg') no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .bg-crew {
+    background: url('/space-tourism-website/assets/crew/background-crew-tablet.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  .bg-crew {
+    background: url('/space-tourism-website/assets/crew/background-crew-desktop.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.bg-technology {
+  background: url('/space-tourism-website/assets/technology/background-technology-mobile.jpg') no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .bg-technology {
+    background: url('/space-tourism-website/assets/technology/background-technology-tablet.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-technology {
+    background: url('/space-tourism-website/assets/technology/background-technology-desktop.jpg') no-repeat;
+    background-size: cover;
   }
 }
 
@@ -37995,6 +38071,10 @@ video {
     height: 24rem;
   }
 
+  .sm\:h-532 {
+    height: 33.25em;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -38365,6 +38445,10 @@ video {
 
   .sm\:w-96 {
     width: 24rem;
+  }
+
+  .sm\:w-515 {
+    width: 32.1875em;
   }
 
   .sm\:w-auto {
@@ -53972,6 +54056,10 @@ video {
   }
 
   .sm\:font-barlow {
+    font-family: "Barlow";
+  }
+
+  .sm\:font-barlow-condensed {
     font-family: "Barlow Condensed";
   }
 
@@ -54239,6 +54327,10 @@ video {
 
   .sm\:tracking-2\.7ls {
     letter-spacing: 0.16875em;
+  }
+
+  .sm\:tracking-2\.36ls {
+    letter-spacing: 0.1475em;
   }
 
   .sm\:tracking-4\.75ls {
@@ -69238,6 +69330,10 @@ video {
     height: 24rem;
   }
 
+  .md\:h-532 {
+    height: 33.25em;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -69608,6 +69704,10 @@ video {
 
   .md\:w-96 {
     width: 24rem;
+  }
+
+  .md\:w-515 {
+    width: 32.1875em;
   }
 
   .md\:w-auto {
@@ -85215,6 +85315,10 @@ video {
   }
 
   .md\:font-barlow {
+    font-family: "Barlow";
+  }
+
+  .md\:font-barlow-condensed {
     font-family: "Barlow Condensed";
   }
 
@@ -85482,6 +85586,10 @@ video {
 
   .md\:tracking-2\.7ls {
     letter-spacing: 0.16875em;
+  }
+
+  .md\:tracking-2\.36ls {
+    letter-spacing: 0.1475em;
   }
 
   .md\:tracking-4\.75ls {
@@ -100481,6 +100589,10 @@ video {
     height: 24rem;
   }
 
+  .lg\:h-532 {
+    height: 33.25em;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -100851,6 +100963,10 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
+  }
+
+  .lg\:w-515 {
+    width: 32.1875em;
   }
 
   .lg\:w-auto {
@@ -116458,6 +116574,10 @@ video {
   }
 
   .lg\:font-barlow {
+    font-family: "Barlow";
+  }
+
+  .lg\:font-barlow-condensed {
     font-family: "Barlow Condensed";
   }
 
@@ -116725,6 +116845,10 @@ video {
 
   .lg\:tracking-2\.7ls {
     letter-spacing: 0.16875em;
+  }
+
+  .lg\:tracking-2\.36ls {
+    letter-spacing: 0.1475em;
   }
 
   .lg\:tracking-4\.75ls {
@@ -131724,6 +131848,10 @@ video {
     height: 24rem;
   }
 
+  .xl\:h-532 {
+    height: 33.25em;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -132094,6 +132222,10 @@ video {
 
   .xl\:w-96 {
     width: 24rem;
+  }
+
+  .xl\:w-515 {
+    width: 32.1875em;
   }
 
   .xl\:w-auto {
@@ -147701,6 +147833,10 @@ video {
   }
 
   .xl\:font-barlow {
+    font-family: "Barlow";
+  }
+
+  .xl\:font-barlow-condensed {
     font-family: "Barlow Condensed";
   }
 
@@ -147968,6 +148104,10 @@ video {
 
   .xl\:tracking-2\.7ls {
     letter-spacing: 0.16875em;
+  }
+
+  .xl\:tracking-2\.36ls {
+    letter-spacing: 0.1475em;
   }
 
   .xl\:tracking-4\.75ls {
@@ -162967,6 +163107,10 @@ video {
     height: 24rem;
   }
 
+  .\32xl\:h-532 {
+    height: 33.25em;
+  }
+
   .\32xl\:h-auto {
     height: auto;
   }
@@ -163337,6 +163481,10 @@ video {
 
   .\32xl\:w-96 {
     width: 24rem;
+  }
+
+  .\32xl\:w-515 {
+    width: 32.1875em;
   }
 
   .\32xl\:w-auto {
@@ -178944,6 +179092,10 @@ video {
   }
 
   .\32xl\:font-barlow {
+    font-family: "Barlow";
+  }
+
+  .\32xl\:font-barlow-condensed {
     font-family: "Barlow Condensed";
   }
 
@@ -179211,6 +179363,10 @@ video {
 
   .\32xl\:tracking-2\.7ls {
     letter-spacing: 0.16875em;
+  }
+
+  .\32xl\:tracking-2\.36ls {
+    letter-spacing: 0.1475em;
   }
 
   .\32xl\:tracking-4\.75ls {

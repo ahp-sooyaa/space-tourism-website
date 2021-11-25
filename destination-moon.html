@@ -55,12 +55,47 @@
             </a>
           </div>
         </div>
-        <svg class="block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="21">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" class="block md:hidden hamburger">
           <g fill="#D0D6F9" fill-rule="evenodd">
             <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
           </g>
         </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" class="z-10 hidden fixed right-8 close">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+          </g>
+        </svg>
       </div>
+    </nav>
+
+    <!-- mobile nav -->
+    <nav class="transition duration-500 ease-in-out mobile-nav block md:hidden bottom-0 fixed right-0 text-white top-0 transform translate-x-full" style="
+      background-color: rgb(92 92 92 / 15%);
+      backdrop-filter: blur(30px);
+    ">
+      <ul class="w-72 pt-32 space-y-5 text-base">
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="index.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">00</span> <span class="text-gray-300">home</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="destination-moon.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">01</span> <span class="text-gray-300">destination</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="crew-pilot.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">02</span> <span class="text-gray-300">crew</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="technology-capsule.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">03</span> <span class="text-gray-300">technology</span>
+          </a>
+        </li>
+      </ul>
     </nav>
   
     <div class="font-barlow-condensed mx-auto text-base md:text-xl lg:text-3xl text-center md:mt-8 md:text-left tracking-2.7ls w-2/3 md:w-full md:pl-14 lg:w-3/4">
@@ -105,5 +140,7 @@
       </div>
     </div>
   </div>
+
+  <script src="/space-tourism-website/js/nav.js"></script>
 </body>
 </html>

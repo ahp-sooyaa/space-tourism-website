@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -34,4 +34,171 @@
   Est. travel time
   7 years
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="build/tailwind.css">
+</head>
+
+<body class="text-white">
+
+  <div class="bg-destination fixed inset-0">
+    <nav class="p-7 md:py-0 md:px-14 lg:py-16">
+      <div class="flex justify-between items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" class="h-10 w-10 lg:h-12 lg:w-12">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF" />
+            <path fill="#0B0D17"
+              d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+          </g>
+        </svg>
+        <hr class="hidden lg:block absolute border-gray-600 left-48 w-1/3 z-10">
+        <div class="hidden md:block -mr-14 lg:pl-10 px-10 text-base lg:w-3/5" style="
+        background-color: rgb(92 92 92 / 15%);
+        backdrop-filter: blur(30px);
+        ">
+          <div class="flex space-x-8 lg:pl-14">
+            <a href="index.html"
+              class="block py-8 lg:py-6 border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">00</span>
+                <span class="uppercase ml-0 lg:ml-3">Home</span>
+              </div>
+            </a>
+            <a href="destination-moon.html" class="block border-b-4 font-barlow-condensed lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">01</span>
+                <span class="uppercase ml-0 lg:ml-3">Destination</span>
+              </div>
+            </a>
+            <a href="crew-commander.html"
+              class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">02</span>
+                <span class="uppercase ml-0 lg:ml-3">Crew</span>
+              </div>
+            </a>
+            <a href="technology-vehicle.html"
+              class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">03</span>
+                <span class="uppercase ml-0 lg:ml-3">Technology</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" class="block md:hidden hamburger">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+          </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" class="z-10 hidden fixed right-8 close">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+          </g>
+        </svg>
+      </div>
+    </nav>
+
+    <!-- mobile nav -->
+    <nav
+      class="transition duration-500 ease-in-out mobile-nav block md:hidden bottom-0 fixed right-0 text-white top-0 transform translate-x-full"
+      style="
+      background-color: rgb(92 92 92 / 15%);
+      backdrop-filter: blur(30px);
+    ">
+      <ul class="w-72 pt-32 space-y-5 text-base">
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="index.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">00</span> <span class="text-gray-300">home</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="destination-moon.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">01</span> <span class="text-gray-300">destination</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="crew-commander.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">02</span> <span class="text-gray-300">crew</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="technology-vehicle.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">03</span> <span class="text-gray-300">technology</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div
+      class="font-barlow-condensed mx-auto text-base md:text-xl lg:text-3xl text-center md:mt-8 md:text-left tracking-2.7ls w-2/3 md:w-full md:pl-14 lg:w-3/4">
+      <span class="font-bold mr-2 text-gray-500">01</span>
+      <span class="uppercase">Pick your destination</span>
+    </div>
+
+    <div class="flex flex-col lg:flex-row lg:w-3/4 mx-auto mt-0 md:mt-5 lg:mt-10 items-end">
+      <img src="assets/destination/image-titan.webp" alt="titan-img"
+        class="my-7 lg:my-0 mx-auto lg:mx-28 w-44 md:w-72 lg:w-96">
+
+      <div class="flex flex-col">
+        <div
+          class="flex font-barlow-condensed justify-center lg:justify-start mx-auto lg:mx-0 space-x-4 tracking-2.36ls uppercase w-2/3 lg:mb-3">
+          <a href="destination-moon.html" class="border-b-4 border-transparent hover:border-gray-500"
+            style="color: #D0D6F9;">Moon</a>
+          <a href="destination-mars.html" class="border-b-4 border-transparent hover:border-gray-500"
+            style="color: #D0D6F9;">Mars</a>
+          <a href="destination-europa.html" class="border-b-4 border-transparent hover:border-gray-500"
+            style="color: #D0D6F9;">Europa</a>
+          <a href="destination-titan.html" class="border-b-4 pb-1">Titan</a>
+        </div>
+
+        <div class="flex flex-col divide-y-2 divide-gray-800 px-6 lg:px-0">
+          <div class="text-center lg:text-left">
+            <div class="md:mt-5 font-bellefair mt-4 uppercase text-6xl md:text-7xl lg:text-8xl lg:my-4">Titan</div>
+
+            <p class="md:mx-auto lg:mx-0 md:mt-4 leading-6 lg:leading-8 text-sm-base lg:text-lg pb-6 md:pb-12 lg:pb-10 text-base md:font-barlow md:w-4/5 md:leading-7"
+              style="color: #D0D6F9;">
+              The only moon known to have a dense atmosphere other than Earth, Titan 
+              is a home away from home (just a few hundred degrees colder!). As a 
+              bonus, you get striking views of the Rings of Saturn.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row justify-between text-center lg:text-left font-barlow-condensed md:w-1/2 md:mx-auto lg:mx-0 lg:w-4/5">
+            <div>
+              <div class="mb-2 pt-6 lg:pt-8 text-sm tracking-2.36ls uppercase" style="color: #D0D6F9;">Avg. distance
+              </div>
+              <div class="font-bellefair text-3xl uppercase">1.6 bil. km</div>
+            </div>
+
+            <div>
+              <div class="mb-2 pt-6 lg:pt-8 text-sm tracking-2.36ls uppercase" style="color: #D0D6F9;">Est. travel time
+              </div>
+              <div class="font-bellefair text-3xl uppercase">7 years</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

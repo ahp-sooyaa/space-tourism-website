@@ -32265,77 +32265,77 @@ video {
 }
 
 .bg-home {
-  background: url('/space-tourism-website/assets/home/background-home-mobile.jpg') no-repeat;
+  background: url('/assets/home/background-home-mobile.jpg') no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .bg-home {
-    background: url('/space-tourism-website/assets/home/background-home-tablet.jpg') no-repeat;
+    background: url('/assets/home/background-home-tablet.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-home {
-    background: url('/space-tourism-website/assets/home/background-home-desktop.jpg') no-repeat;
+    background: url('/assets/home/background-home-desktop.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 .bg-destination {
-  background: url('/space-tourism-website/assets/destination/background-destination-mobile.jpg') no-repeat;
+  background: url('/assets/destination/background-destination-mobile.jpg') no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
   .bg-destination {
-    background: url('/space-tourism-website/assets/destination/background-destination-tablet.jpg') no-repeat;
+    background: url('/assets/destination/background-destination-tablet.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1440px) {
   .bg-destination {
-    background: url('/space-tourism-website/assets/destination/background-destination-desktop.jpg') no-repeat;
+    background: url('/assets/destination/background-destination-desktop.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 .bg-crew {
-  background: url('/space-tourism-website/assets/crew/background-crew-mobile.jpg') no-repeat;
+  background: url('/assets/crew/background-crew-mobile.jpg') no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
   .bg-crew {
-    background: url('/space-tourism-website/assets/crew/background-crew-tablet.jpg') no-repeat;
+    background: url('/assets/crew/background-crew-tablet.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1440px) {
   .bg-crew {
-    background: url('/space-tourism-website/assets/crew/background-crew-desktop.jpg') no-repeat;
+    background: url('/assets/crew/background-crew-desktop.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 .bg-technology {
-  background: url('/space-tourism-website/assets/technology/background-technology-mobile.jpg') no-repeat;
+  background: url('/assets/technology/background-technology-mobile.jpg') no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .bg-technology {
-    background: url('/space-tourism-website/assets/technology/background-technology-tablet.jpg') no-repeat;
+    background: url('/assets/technology/background-technology-tablet.jpg') no-repeat;
     background-size: cover;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-technology {
-    background: url('/space-tourism-website/assets/technology/background-technology-desktop.jpg') no-repeat;
+    background: url('/assets/technology/background-technology-desktop.jpg') no-repeat;
     background-size: cover;
   }
 }

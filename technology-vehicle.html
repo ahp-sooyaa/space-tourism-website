@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -29,4 +29,168 @@
   WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
   it's quite an awe-inspiring sight on the launch pad!
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Space tourism website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="build/tailwind.css">
+</head>
+
+<body class="text-white">
+
+  <div class="bg-technology fixed inset-0">
+    <nav class="p-7 md:py-0 md:px-14 lg:py-16">
+      <div class="flex justify-between items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" class="h-10 w-10 lg:h-12 lg:w-12">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF" />
+            <path fill="#0B0D17"
+              d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+          </g>
+        </svg>
+        <hr class="hidden lg:block absolute border-gray-600 left-48 w-1/3 z-10">
+        <div class="hidden md:block -mr-14 lg:pl-10 px-10 text-base lg:w-3/5" style="
+          background-color: rgb(92 92 92 / 15%);
+          backdrop-filter: blur(30px);
+        ">
+          <div class="flex space-x-8 lg:pl-14">
+            <a href="index.html"
+              class="block py-8 lg:py-6 border-b-4 border-transparent hover:border-gray-500 font-barlow-condensed tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">00</span>
+                <span class="uppercase ml-0 lg:ml-3">Home</span>
+              </div>
+            </a>
+            <a href="destination-moon.html"
+              class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">01</span>
+                <span class="uppercase ml-0 lg:ml-3">Destination</span>
+              </div>
+            </a>
+            <a href="crew-commander.html"
+              class="block border-b-4 border-transparent font-barlow-condensed hover:border-gray-500 lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">02</span>
+                <span class="uppercase ml-0 lg:ml-3">Crew</span>
+              </div>
+            </a>
+            <a href="technology-vehicle.html"
+              class="block border-b-4 font-barlow-condensed lg:py-6 py-8 tracking-2.7ls">
+              <div class="flex">
+                <span class="font-bold hidden lg:block">03</span>
+                <span class="uppercase ml-0 lg:ml-3">Technology</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" class="block md:hidden hamburger">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+          </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" class="z-10 hidden fixed right-8 close">
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+          </g>
+        </svg>
+      </div>
+    </nav>
+
+    <!-- mobile nav -->
+    <nav
+      class="transition duration-500 ease-in-out mobile-nav block md:hidden bottom-0 fixed right-0 text-white top-0 transform translate-x-full"
+      style="
+      background-color: rgb(92 92 92 / 15%);
+      backdrop-filter: blur(30px);
+    ">
+      <ul class="w-72 pt-32 space-y-5 text-base">
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="index.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">00</span> <span class="text-gray-300">home</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="destination-moon.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">01</span> <span class="text-gray-300">destination</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="crew-commander.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">02</span> <span class="text-gray-300">crew</span>
+          </a>
+        </li>
+        <li class="uppercase font-barlow-condensed list-none">
+          <a href="technology-vehicle.html" class="block pl-10 tracking-2.7ls">
+            <span class="font-bold mr-2">03</span> <span class="text-gray-300">technology</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="lg:w-11/12 lg:pl-16 lg:ml-auto">
+      <div class="font-barlow-condensed mb-8 md:mb-0 md:pl-16 lg:pl-0 md:mt-5 md:text-left md:text-xl text-center">
+        <span class="font-bold mr-2 text-gray-500 tracking-2.7ls">03</span> <span class="tracking-2.7ls uppercase">Space
+          launch 101</span>
+      </div>
+
+      <div class="flex flex-col lg:flex-row lg:items-center">
+        <img class="mb-8 md:my-14 block space-capsule-img lg:hidden"
+          src="assets/technology/image-launch-vehicle-landscape.jpg" alt="spaceport image">
+        <img class="mb-8 md:my-14 lg:mt-3 lg:order-last lg:w-515 lg:h-532 hidden lg:block"
+          src="assets/technology/image-launch-vehicle-portrait.jpg" alt="spaceport image">
+
+        <div
+          class="flex flex-row justify-between w-1/3 mx-auto mb-5 lg:mb-0 lg:order-1 lg:flex-col lg:justify-center lg:space-y-5 lg:pr-5">
+          <a href="technology-vehicle.html"
+            class="border border-gray-500 md:px-7 md:py-5 px-3 py-1 rounded-full lg:w-20 lg:h-20 grid place-items-center bg-white text-black font-bellefair lg:text-3xl">
+            1
+          </a>
+          <a href="technology-spaceport.html"
+            class="border border-gray-500 md:px-7 md:py-5 px-3 py-1 rounded-full lg:w-20 lg:h-20 grid place-items-center font-bellefair lg:text-3xl hover:border-white cursor-pointer">
+            2
+          </a>
+          <a href="technology-vehicle.html"
+            class="border border-gray-500 md:px-7 md:py-5 px-3 py-1 rounded-full lg:w-20 lg:h-20 grid place-items-center font-bellefair lg:text-3xl hover:border-white cursor-pointer">
+            3
+          </a>
+        </div>
+
+        <div class="md:mt-10 lg:order-2 lg:mt-0 lg:h-full">
+          <div class="text-center lg:text-left">
+            <div class="font-barlow-condensed mb-1 md:text-base text-sm tracking-2.36ls uppercase md:mb-3"
+              style="color: #D0D6F9;">The terminology...</div>
+            <div class="font-bellefair mb-5 md:text-4xl text-2xl lg:text-6xl uppercase">Launch vehicle</div>
+          </div>
+
+          <p class="font-barlow leading-6 md:leading-7 md:text-base md:w-3/5 mx-auto px-4 text-center lg:text-left lg:mx-0 lg:px-0 lg:w-3/4 lg:text-lg"
+            style="color: #D0D6F9;">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch pad!
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

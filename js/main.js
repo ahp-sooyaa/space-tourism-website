@@ -21,13 +21,10 @@ const exploreBorder = document.querySelector('.explore-border');
 
 if(explore != null) {
   explore.addEventListener('mouseenter', () => {
-    exploreBorder.classList.add('block')
-    exploreBorder.classList.remove('hidden')
-    // exploreBorder.Style.display = "block"
+    exploreBorder.style.display = "block"
   })
   
   explore.addEventListener('mouseleave', () => {
-    exploreBorder.classList.add('hidden')
-    exploreBorder.classList.remove('block')
+    exploreBorder.style.display = "none"
   })
 }
